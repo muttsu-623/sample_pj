@@ -13,10 +13,11 @@ class ChangeLabelViewController: UIViewController {
     @IBOutlet weak var samplelabel: UILabel!
     @IBOutlet weak var changebutton: UIButton!
     @IBAction func changebutton(_ sender: Any) {
-        
+        print("Hello button is pushed")
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("Hello Swift")
 
         // Do any additional setup after loading the view.
     }
@@ -24,6 +25,7 @@ class ChangeLabelViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        print("Hello Swift")
     }
     
 
