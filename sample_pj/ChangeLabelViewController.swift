@@ -13,7 +13,7 @@ class ChangeLabelViewController: UIViewController {
     @IBOutlet weak var samplelabel: UILabel!
     @IBOutlet weak var changebutton: UIButton!
     @IBAction func changebutton(_ sender: Any) {
-        print("Hello button is pushed")
+        samplelabel.text = "Hello button is pushed"
     }
     override func viewDidLoad() {
         super.viewDidLoad()
