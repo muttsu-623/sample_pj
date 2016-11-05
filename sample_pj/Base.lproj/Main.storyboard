@@ -75,6 +75,7 @@
                         <color key="backgroundColor" red="0.37731547404506122" green="0.72336632013320923" blue="0.63606506034043353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="changebutton" destination="Pn8-Mo-xy4" id="IKO-gG-l3U"/>
                         <outlet property="samplelabel" destination="tsP-Ga-fbe" id="mXJ-rd-tt0"/>
                     </connections>
                 </viewController>
