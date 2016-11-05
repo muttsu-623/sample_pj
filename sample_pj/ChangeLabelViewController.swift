@@ -18,7 +18,6 @@ class ChangeLabelViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Hello Swift")
 
         // Do any additional setup after loading the view.
     }
