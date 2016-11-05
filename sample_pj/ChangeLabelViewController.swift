@@ -14,7 +14,7 @@ class ChangeLabelViewController: UIViewController {
     @IBOutlet weak var changebutton: UIButton!
     @IBAction func changebutton(_ sender: Any) {
         samplelabel.text = "Hello button is pushed"
-        changebutton.setTitle("new title", for: .normal)
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
