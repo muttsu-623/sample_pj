@@ -11,8 +11,9 @@ import UIKit
 class ChangeLabelViewController: UIViewController {
 
     @IBOutlet weak var samplelabel: UILabel!
+    @IBOutlet weak var changebutton: UIButton!
     @IBAction func changebutton(_ sender: Any) {
-        samplelabel =
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
